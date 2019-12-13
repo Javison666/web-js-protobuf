@@ -1,0 +1,12 @@
+package test_msg;
+
+message TEST_ITEM		
+{
+	required uint32	item_id     = 1;	
+}
+
+//旁观配置通知
+message TEST_LIST
+{
+	repeated TEST_ITEM list		= 1;
+}
